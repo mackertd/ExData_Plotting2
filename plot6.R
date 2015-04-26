@@ -125,7 +125,7 @@ print(plot)
 
 print("Exporting the plot as a PNG")
 
-dev.copy(png, file = "plot6.png", height=480, width=480)
+dev.copy(png, file = "plot6.png", height=480, width=640)
 dev.off()
 
 print("Application complete")
